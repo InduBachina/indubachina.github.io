@@ -1,1 +1,0 @@
-This is a website for restaurant where in home page which have different links in navigation bar. On clicking on the links, we will reach to respective sections in website where we can go to other pages by clicking on read more button.
