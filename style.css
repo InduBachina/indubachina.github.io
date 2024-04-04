@@ -51,7 +51,7 @@ nav a:link {
 }
 
 nav a:visited {
-    color: #FFF;
+    color: #E2FFFF;
 }
 
 nav a:hover {
@@ -90,15 +90,10 @@ img {
 
 .image {
     width: 400px;
-    /* Adjust the size of the circular container */
     height: 400px;
-    /* Adjust the size of the circular container */
     border-radius: 50%;
-    /* Make the container circular */
     overflow: hidden;
-    /* Hide overflow content (necessary for circular shape) */
     margin-right: 10px;
-    /* Adjust as needed */
     padding: 20px;
 }
 
@@ -159,7 +154,194 @@ img {
     line-height: 26.4px;
     color: red;
 }
-h4{
+
+h4 {
     font-size: 24px;
     padding-left: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-left: 1em;
+    width: 80%;
+}
+
+input,
+textarea {
+    margin-bottom: .5em;
+}
+
+.contactForm {
+    flex: 1;
+    padding: 20px;
+    padding-top: 50px;
+}
+
+.info1 {
+    flex: 1;
+    padding: 20px;
+    position: relative;
+    border-right: 1px solid lightgreen;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+
+.info-border {
+    border: 2px solid lightgreen;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #FDA27F;
+}
+
+.recipe-container {
+    margin: 30px;
+    /* Margin to the edges of the page */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* Space between the two recipe sections */
+}
+
+.recipe {
+    border-radius: 8px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: calc(50% - 10px);
+    /* 50% width with 10px margin between the two sections */
+    max-width: calc(50% - 10px);
+    /* Maximum width */
+    margin-bottom: 20px;
+    /* Margin between recipe sections */
+    background-color: antiquewhite;
+}
+
+.recipe img {
+    width: 100%;
+    height: auto;
+    padding: 0px;
+}
+
+.recipe p.chef {
+    padding: 0 10px;
+}
+
+.content {
+    padding: 10px;
+}
+
+.ingredients ul,
+.recipe ul,
+.tips ul {
+    padding-left: 20px;
+}
+
+.items {
+    color: #237B7B;
+    font-family: Georgia, "Times New Roman", serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.success-message {
+    display: none;
+}
+
+.success-message:target {
+    display: block;
+}
+
+/* Optional styling for the success message */
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin-top: 10px;
+}
+
+.intro {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 400px;
+    margin-inline-end: 0px;
+    font-family: "futura-pt";
+    font-size: 1.2rem;
+    line-height: 1.5;
+    color: #3F2537;
+    max-width: 580;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    max-width: 150px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.dining {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1130px;
+    margin-left: 140px;
+}
+
+.dining-section {
+    flex: 1;
+    margin: 40px;
+}
+
+.dining-item {
+    margin-bottom: 20px;
+}
+
+.seats {
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    /* Background color */
+    color: #fff;
+    /* Text color */
+    padding: 20px;
+    /* Padding for content */
+    text-align: center;
+    /* Center align text */
+}
+
+/* Styling for links in the footer */
+footer a {
+    color: #fff;
+    /* Link color */
+    text-decoration: none;
+    /* Remove underline */
+}
+
+/* Styling for links in the footer on hover */
+footer a:hover {
+    text-decoration: underline;
+    /* Underline on hover */
 }
