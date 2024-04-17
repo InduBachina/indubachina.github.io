@@ -322,13 +322,14 @@ nav a:hover {
 }
 
 footer {
-    background-color:burlywood;
-    color: #fff;
+    background-color:#61df7e;
+    color: #0c0808;
     /* Text color */
     padding: 20px;
     /* Padding for content */
     text-align: center;
     /* Center align text */
+    margin-top: 10px;
 }
 
 /* Styling for links in the footer */
@@ -344,3 +345,66 @@ footer a:hover {
     text-decoration: underline;
     /* Underline on hover */
 }
+.toggle-content {
+    display: none;
+  }
+
+  /* Show the toggle content when the anchor is targeted */
+  .toggle-content:target {
+    display: block;
+  }
+
+  /* Style for the toggle link */
+  .toggle-link {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+  }
+
+  .toggle-content2 {
+    display: none;
+  }
+
+  /* Show the toggle content when the anchor is targeted */
+  .toggle-content2:target {
+    display: block;
+  }
+
+  /* Style for the toggle link */
+  .toggle-link2 {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+  }
+
+  .toggle-content3 {
+    display: none;
+  }
+
+  /* Show the toggle content when the anchor is targeted */
+  .toggle-content3:target {
+    display: block;
+  }
+
+  /* Style for the toggle link */
+  .toggle-link3 {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+  }
+
+  .toggle-content4 {
+    display: none;
+  }
+
+  /* Show the toggle content when the anchor is targeted */
+  .toggle-content4:target {
+    display: block;
+  }
+
+  /* Style for the toggle link */
+  .toggle-link4 {
+    cursor: pointer;
+    color: #007bff;
+    text-decoration: underline;
+  }
